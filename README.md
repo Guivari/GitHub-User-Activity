@@ -1,5 +1,35 @@
 # GitHub-User-Activity
 
+git clone git@github.com:Guivari/GitHub-User-Activity.git
+cd GitHub-User-Activity.git
+go build
+go list -f '{{.Target}}'
+set PATH=%PATH%;[C:\path\to\your\install\directory]
+go install
+
+
+Example use:
+$ Github-User-Activity Guivari
+User found!
+
+In Guivari/Guivari:
+PushEvent 1 times
+
+In Guivari/Task-Tracker-CLI:
+PushEvent 3 times
+CreateEvent 1 times
+
+In Guivari/GitHub-User-Activity:
+PushEvent 1 times
+CreateEvent 1 times
+
+In Guivari/learning-go-modules:
+PushEvent 2 times
+CreateEvent 1 times
+
+
+
+
 Project taken from Roadmap.sh
 https://roadmap.sh/projects/github-user-activity
 
